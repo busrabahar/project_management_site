@@ -4,8 +4,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.1'
 
 
-
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.3'
 # Use sqlite3 as the database for Active Record
@@ -36,6 +34,8 @@ gem 'redcarpet', '~>3.2.3'
 gem 'friendly_id', '~> 5.1.0'
 gem 'will_paginate', '~> 3.1.8'
 gem 'mail_form', '~> 1.8', '>= 1.8.1'
+gem 'simple_form'
+gem 'devise'
 
 
 group :development, :test do

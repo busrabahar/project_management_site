@@ -12,4 +12,3 @@ default: &default
 development:
   <<: *default
   database: project_management_site
-  
